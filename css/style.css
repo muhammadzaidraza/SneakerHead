@@ -1,0 +1,39 @@
+.nav-wrapper {
+  background-color: white;
+  padding-left: 20px;
+}
+
+.slider .indicators .indicator-item {
+  background-color: black;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: grey;
+}
+
+.aboutusimage {
+  object-fit: contain;
+  height: 200;
+  width: auto;
+}
+
+.move {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.parallax-container {
+  min-height: 300px;
+  height: auto;
+}
+
+.card_styling {
+  border: 1px solid black;
+  background-color: white !important;
+  width: 230px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer-one {
+  background: grey;
+}

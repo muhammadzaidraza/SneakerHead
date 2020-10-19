@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sneaker Head</title>
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <!-- materialize icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- actual materialize CDN link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="fnavbar">
+      <nav class="nav-fixed">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo" style="color: black;">
+            <i class="material-icons">store</i>
+            Sneaker Head
+          </a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons" style="color: black;">menu</i></a
+          >
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>
+              <a href="#" onclick="toggleModal()" style="color: black;">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#" onclick="toggleModal()" style="color: black;"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a href="#" onclick="toggleModal()" style="color: black;"
+                >Store</a
+              >
+            </li>
+            <li>
+              <a href="#" onclick="toggleModal()" style="color: black;"
+                >Surprise!</a
+              >
+            </li>
+            <li>
+              <a href="#" onclick="toggleModal()" style="color: black;"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#" onclick="toggleModal()">Home</a></li>
+        <li><a href="#" onclick="toggleModal()">About Us</a></li>
+        <li><a href="#" onclick="toggleModal()">Store</a></li>
+        <li><a href="#" onclick="toggleModal()">Surprise!</a></li>
+        <li><a href="#" onclick="toggleModal()">Contact Us</a></li>
+      </ul>
+    </section>
+
+    <section class="fslider">
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="./images/1.jpg" alt="" />
+            <div class="caption center-align white-text">
+              <h3>Sneakers</h3>
+              <h5 class="lighten test-lighten-3">
+                We focus on quality rather that quantity
+              </h5>
+            </div>
+          </li>
+          <li>
+            <img src="./images/2.jpg" alt="" />
+            <div class="caption center-align white-text">
+              <h3>Sneakers</h3>
+              <h5 class="lighten test-lighten-3">
+                We focus on quality rather that quantity
+              </h5>
+            </div>
+          </li>
+          <li>
+            <img src="./images/3.jpg" alt="" />
+            <div class="caption center-align white-text">
+              <h3>Sneakers</h3>
+              <h5 class="lighten test-lighten-3">
+                We focus on quality rather that quantity
+              </h5>
+            </div>
+          </li>
+          <li>
+            <img src="./images/4.jpg" alt="" />
+            <div class="caption center-align white-text">
+              <h3>Sneakers</h3>
+              <h5 class="lighten test-lighten-3">
+                We focus on quality rather that quantity
+              </h5>
+            </div>
+          </li>
+          <li>
+            <img src="./images/5.jpg" alt="" />
+            <div class="caption center-align white-text">
+              <h3>Sneakers</h3>
+              <h5 class="lighten test-lighten-3">
+                We focus on quality rather that quantity
+              </h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="description">
+      <div class="section white center">
+        <h2 class="header">
+          Sneaker Head - ultimate quality Sneakers
+        </h2>
+        <div class="row container center">
+          <div class="col center l8 s12 move">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
+            eligendi quasi iusto quibusdam hic doloremque fugit ex saepe alias
+            suscipit temporibus cupiditate corporis necessitatibus atque
+            consequatur! Fugit placeat, reiciendis ex temporibus obcaecati est
+            amet reprehenderit doloribus quas fugiat repellendus doloremque,
+            aliquam incidunt iusto rem velit saepe ipsum. Debitis dolore porro
+            tempore excepturi, cumque illo? Soluta quibusdam a quisquam fugit
+            reiciendis, temporibus corporis! Molestias magni officiis animi,
+            laborum dicta eius, sint, mollitia inventore esse sequi ipsa dolor?
+            Voluptate accusantium reiciendis, nesciunt incidunt inventore hic
+            repellat adipisci sint odio nisi necessitatibus quae iure, aut quam
+            et unde, vero maiores illo asperiores labore?
+          </div>
+          <div class="col center l4 s12">
+            <img src="./images/6.jpg" class="aboutusimage" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fcards">
+      <div class="row container center">
+        <div class="col s12 m6 l4 center">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="./images/71.jpg"
+                style="object-fit: contain;"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Nike Air Force 1'07<i class="material-icons right"
+                  >more_vert</i
+                ></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Nike Air Force 1'07<i class="material-icons right"
+                  >close</i
+                ></span
+              >
+              <p>
+                The Nike Air Force 1 ’07 is the b-ball OG that puts a fresh spin
+                on what you know best: crisp leather, bold colors and the
+                perfect amount of flash to let you shine.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 center">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="./images/8.jpg"
+                style="object-fit: contain;"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >KD13<i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >KD13<i class="material-icons right">close</i></span
+              >
+              <p>
+                If you want to be a complete player, you have to make an impact
+                on both ends of the floor, from tip-off to the final buzzer. The
+                KD13—built with a full-length Zoom Air unit stitched directly to
+                the upper and an additional Zoom Air unit in the
+                forefoot—provides the responsiveness and optimal energy return
+                to help you make big-time plays all game long.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 center">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
+                src="./images/9.jpg"
+                style="object-fit: contain;"
+              />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Nike SuperRep Go<i class="material-icons right"
+                  >more_vert</i
+                ></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Nike SuperRep Go<i class="material-icons right">close</i></span
+              >
+              <p>
+                The Nike SuperRep Go combines comfortable foam cushioning,
+                flexibility and support to get you moving in circuit-based
+                fitness classes or while streaming workouts at home.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fparallex">
+      <div class="parallax-container">
+        <div class="parallax"><img src="./images/101.jpg" /></div>
+      </div>
+    </section>
+
+    <section class="fabout">
+      <div class="section white center">
+        <div class="row container">
+          <h2 class="header">About Us</h2>
+          <p class="gey-text text-darken-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sunt
+            blanditiis nesciunt ipsam, ut inventore excepturi suscipit provident
+            soluta, quae maxime dolor quisquam dolorem. Molestiae vero
+            asperiores ex dolor voluptatibus natus temporibus! Aliquam pariatur
+            deleniti ipsum adipisci, sequi perferendis voluptates! Quia adipisci
+            animi, reprehenderit vitae quo ut, excepturi accusamus expedita a id
+            sit, sint eaque ad earum debitis nemo. Odio voluptates eos deleniti.
+            Nulla quia sapiente placeat veniam quasi recusandae ex illo repellat
+            asperiores eius. Illum unde reiciendis minus in ratione. Excepturi
+            laudantium dolores quibusdam veniam. Eveniet quis ad recusandae,
+            alias aspernatur odio error dolorum pariatur ducimus consequatur
+            dolore sint!
+          </p>
+          <a
+            href="#"
+            class="btn waves-effect waves-light"
+            style="background-color: black;"
+            >read more</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="fservices">
+      <div class="row container">
+        <div class="col s12 l4 center">
+          <i class="large material-icons center">phone</i>
+          <h5 class="header">phone</h5>
+        </div>
+        <div class="col s12 l4 center">
+          <i class="large material-icons center">watch_later</i>
+          <h5 class="header">watch_later</h5>
+        </div>
+        <div class="col s12 l4 center">
+          <i class="large material-icons center">favorite</i>
+          <h5 class="header">favorite</h5>
+        </div>
+      </div>
+    </section>
+
+    <section class="freviews">
+      <div class="section white center">
+        <h3 class="header">What our customers say</h3>
+        <div class="carousel myreviews" style="margin-bottom: 30px;">
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div class="card-panel teal card_styling">
+                  <span style="color: black; font-weight: bold;"
+                    >First review</span
+                  >
+                  <p style="color: black;">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sunt fuga, saepe dolor maxime modi hic ratione eligendi
+                    architecto nobis praesentium?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div class="card-panel teal card_styling">
+                  <span style="color: black; font-weight: bold;"
+                    >Second review</span
+                  >
+                  <p style="color: black;">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sunt fuga, saepe dolor maxime modi hic ratione eligendi
+                    architecto nobis praesentium?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div class="card-panel teal card_styling">
+                  <span style="color: black; font-weight: bold;"
+                    >Third review</span
+                  >
+                  <p style="color: black;">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sunt fuga, saepe dolor maxime modi hic ratione eligendi
+                    architecto nobis praesentium?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div class="card-panel teal card_styling">
+                  <span style="color: black; font-weight: bold;"
+                    >Fourth review</span
+                  >
+                  <p style="color: black;">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sunt fuga, saepe dolor maxime modi hic ratione eligendi
+                    architecto nobis praesentium?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div class="card-panel teal card_styling">
+                  <span style="color: black; font-weight: bold;"
+                    >Fifth review</span
+                  >
+                  <p style="color: black;">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sunt fuga, saepe dolor maxime modi hic ratione eligendi
+                    architecto nobis praesentium?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div class="card-panel teal card_styling">
+                  <span style="color: black; font-weight: bold;"
+                    >Sixth review</span
+                  >
+                  <p style="color: black;">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sunt fuga, saepe dolor maxime modi hic ratione eligendi
+                    architecto nobis praesentium?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div class="card-panel teal card_styling">
+                  <span style="color: black; font-weight: bold;"
+                    >Seventh review</span
+                  >
+                  <p style="color: black;">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sunt fuga, saepe dolor maxime modi hic ratione eligendi
+                    architecto nobis praesentium?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <footer style="border-top: 1px solid grey;">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 l6">
+              <h4>Contact Us</h4>
+              <p>
+                <i class="tiny material-icons">home</i>ABC , 502 , karachi
+                pakistan
+              </p>
+              <p><i class="tiny material-icons">call</i> +92999999999</p>
+            </div>
+            <div class="col s12 l6">
+              <h4>Social Media</h4>
+              <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-one">
+          <div class="row container">
+            <div class="col s12 l6">
+              <p>&copy:Snaeker Head</p>
+            </div>
+            <div class="col s12 l6">
+              <p>Designed by team</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <section class="infomodal">
+      <div id="modal3" class="modal">
+        <div class="modal-content">
+          <h4 class="info-modal-heading">LINK disabled !</h4>
+          <p class="info-modal-content">Sorry ! all inks are disabled</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="modal-close waves-effect btn-flat">close</a>
+        </div>
+      </div>
+    </section>
+  </body>
+  <!-- jquery -->
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"
+  ></script>
+  <!-- materialze script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- custom js -->
+  <script src="js/loader.js"></script>
+</html>
